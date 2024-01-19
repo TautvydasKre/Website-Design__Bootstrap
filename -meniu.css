@@ -1,0 +1,37 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  color: #000;
+}
+.deco {
+  text-decoration: none;
+  color: #000;
+}
+
+.lin {
+  background-image: linear-gradient(
+    to right,
+    #242f40,
+    #4a5c73,
+    #242f40,
+    #4a5c73,
+    #242f40
+  );
+  color: #000;
+}
+.footer {
+  background-image: linear-gradient(to right, #4a5c73, #242f40, #4a5c73);
+  border-top: 10px solid #212529;
+}
+.navigation {
+  background-image: linear-gradient(to right, #4a5c73, #242f40, #4a5c73);
+  border-bottom: 5px solid #212529;
+  color: #000;
+}
